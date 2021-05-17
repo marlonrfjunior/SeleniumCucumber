@@ -67,6 +67,11 @@ public class Utils {
         return prop;
     }
 
+
+    public static  String getPropertyRestsettings(String key){
+        return getProperty(loadProperties(System.getProperty("user.dir") + "\\src\\test\\resources\\testsettings.properties"), key);
+    }
+
     public static String getProperty(Properties prop, String propertyKey) {
         try {
             if (System.getProperty(propertyKey) != null) {
@@ -79,6 +84,7 @@ public class Utils {
             throw new IllegalStateException(error_msg);
         }
     }
+
 
     public static void setEnvironment() {
         String environment;
@@ -433,5 +439,6 @@ public class Utils {
     public static String substringRegexGroup1(String regex, String data) {
         return substringRegex(regex, data).group(1);
     }
+
 
 }

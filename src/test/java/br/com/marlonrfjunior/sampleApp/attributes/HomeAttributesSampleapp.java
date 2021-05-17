@@ -6,6 +6,16 @@ import org.openqa.selenium.support.FindBy;
 import br.com.marlonrfjunior.sampleApp.utils.BasePage;
 
 public class HomeAttributesSampleapp extends BasePage {
+    @FindBy(xpath = "//h2")
+    protected WebElement resultSendingEmail;
+
+    @FindBy(id = "LoadingPDF")
+    protected WebElement loading;
+
+    protected WebElement btnNext(String nextPage) {
+        return findElementByXpath("//button[contains(@id,'next" + nextPage + "')]");
+    }
+
 
     protected WebElement menuBar(String bar) {
         return findElementByXpath("//a[contains(text(),'" + bar + "')]");
