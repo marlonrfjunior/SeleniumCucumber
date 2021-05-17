@@ -2,46 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7cee30f-94e4-4fd9-873b-845dd27ceeb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/FillForStepsSampleApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testsettings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testsettings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/automationTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/automationTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/10__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/11_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/12__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/13_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/14__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/15_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/16_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/17__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/18_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/19__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/1_Model_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/20_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/21__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/22_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/23__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/24_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/25__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/26_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/27__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/28_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/29__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/2_Cylinder Capacity_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/30_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/31__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/32_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/33__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/34_Number of Seats_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/35_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/36_Number of Seats Motorcycle_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/37_Fuel Type_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/38_Payload_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/39_Total Weight_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/3_[kW]_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/40_List Price_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/41_License Plate Number_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/42_Annual Mileage_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/43_Next (Enter Insurant Data)_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/44_First Name_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/45_Last Name_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/46_Date of Birth_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/47_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/48_Street Address_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/49_Country_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/4_Open Date of Manufacture Calender_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/50_Zip Code_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/51_City_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/52_Occupation_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/53_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/54_Website_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/55_Next (Enter Product Data)_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/56_Open Start Date Calender_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/57_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/58_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/59__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/5_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/60_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/61__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/62_Insurance Sum_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/63_Merit Rating_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/64_Damage Insurance_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/65_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/66_Courtesy Car_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/67_Next (Select Price Option)_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/68_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/69_Next (Send Quote)_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/6__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/70_E-Mail_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/71_Phone_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/72_Username_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/73_Password_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/74_Confirm Password_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/75_Comments_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/76_Send E-Mail_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/77_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/7_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/8__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/9_null_screenshot.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,18 +92,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="DockManager">
     <window id="2">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/resources/testsettings.properties">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="952">
+                  <state relative-caret-position="548">
                     <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
                   </state>
                 </provider>
@@ -78,48 +117,25 @@
     <favorites_list name="testeselenium" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-118">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/FillForStepsSampleApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-553">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -127,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
+            <state relative-caret-position="7004">
+              <caret line="442" selection-start-line="442" selection-end-line="442" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +155,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="782">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,7 +167,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="340">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -160,11 +176,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/automationTest.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -218,13 +279,14 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/FillForStepsSampleApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -235,10 +297,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="y" value="-11" />
-    <option name="width" value="983" />
-    <option name="height" value="1043" />
+    <option name="x" value="948" />
+    <option name="y" value="-12" />
+    <option name="width" value="984" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,6 +310,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,8 +396,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -440,12 +502,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__automationTest - 2021.05.17 at 01h 03m 50s.xml">
-      <configuration name="Feature: automationTest" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__automationTest - 2021.05.17 at 01h 08m 17s.xml">
-      <configuration name="Feature: automationTest" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__automationTest - 2021.05.17 at 01h 13m 42s.xml">
       <configuration name="Feature: automationTest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -470,6 +526,12 @@
     <history-entry file="Feature__automationTest - 2021.05.17 at 01h 42m 20s.xml">
       <configuration name="Feature: automationTest" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__automationTest - 2021.05.17 at 10h 02m 54s.xml">
+      <configuration name="Feature: automationTest" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__automationTest - 2021.05.17 at 10h 04m 28s.xml">
+      <configuration name="Feature: automationTest" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -478,21 +540,11 @@
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.5019608" side_tool="true" weight="0.3068826" />
+      <window_info id="Favorites" order="3" sideWeight="0.50385606" side_tool="true" weight="0.3125506" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Learn" order="5" weight="0.32955465" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49803922" visible="true" weight="0.3068826" />
-      <window_info id="Structure" order="7" sideWeight="0.5014749" side_tool="true" weight="0.3068826" />
-      <window_info anchor="bottom" id="Log Analyzer" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32839838" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="JenkinsLogs" />
-      <window_info anchor="bottom" id="Anonymous Apex" weight="0.32974428" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32974428" />
-      <window_info anchor="bottom" id="Messages" weight="0.3268206" />
-      <window_info anchor="bottom" id="SOQL Query" />
-      <window_info anchor="bottom" id="Job test results" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49614397" visible="true" weight="0.3125506" />
+      <window_info id="Structure" order="7" sideWeight="0.5026643" side_tool="true" weight="0.3125506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3090586" />
@@ -500,23 +552,33 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Performance" />
-      <window_info anchor="right" id="Jenkins" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32839838" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="JenkinsLogs" order="10" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="11" weight="0.32974428" />
+      <window_info anchor="bottom" id="Log Analyzer" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3268206" />
+      <window_info anchor="bottom" id="SOQL Query" order="15" />
+      <window_info anchor="bottom" id="Job test results" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Jenkins" order="6" />
+      <window_info anchor="right" id="Flutter Inspector" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Flutter Outline" order="9" />
+      <window_info anchor="right" id="Flutter Performance" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info id="Favorites" order="2" sideWeight="0.5019608" side_tool="true" visible="true" weight="0.3068826" />
+      <window_info id="Favorites" order="2" sideWeight="0.5019608" side_tool="true" weight="0.3068826" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Learn" order="5" />
@@ -578,15 +640,29 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java</url>
-          <line>17</line>
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="38" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -645,14 +721,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -758,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -843,13 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testsettings.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/select-environment.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -860,33 +914,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-727">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -902,25 +929,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
+        <state relative-caret-position="85">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/FillForStepsSampleApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -939,8 +956,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="442" lean-forward="true" selection-start-line="442" selection-end-line="442" />
+        <state relative-caret-position="7004">
+          <caret line="442" selection-start-line="442" selection-end-line="442" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -949,7 +966,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="782">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -959,7 +976,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="340">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -971,6 +988,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testsettings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

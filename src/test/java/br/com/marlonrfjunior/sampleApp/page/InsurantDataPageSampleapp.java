@@ -33,7 +33,7 @@ public class InsurantDataPageSampleapp extends InsurantDataAttributesSampleapp {
      */
     public void uploadArchive(){
 //        click(btnOpenFile);
-//        btnOpenFile.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\file.png");
+        btnOpenFile.sendKeys(System.getProperty("user.dir")+"\\src\\test\\resources\\file.png");
 
     }
 
