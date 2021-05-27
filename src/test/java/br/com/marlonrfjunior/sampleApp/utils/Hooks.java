@@ -44,6 +44,7 @@ public class Hooks extends TestWatcher {
         Hooks.scenario = scenario;
 
         Utils.setEnvironment();
+        new File("target/report").mkdir();
         new File("target/report/Screenshoots").mkdir();
         Utils.deleteAllFilesInFolder("target/report/Screenshoots");
 
