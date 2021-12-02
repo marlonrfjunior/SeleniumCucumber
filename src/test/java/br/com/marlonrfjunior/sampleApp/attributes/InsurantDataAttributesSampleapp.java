@@ -1,11 +1,11 @@
 package br.com.marlonrfjunior.sampleApp.attributes;
 
-import br.com.marlonrfjunior.sampleApp.utils.BasePage;
+import br.com.marlonrfjunior.sampleApp.utils.DSL;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 
-public class InsurantDataAttributesSampleapp extends BasePage {
+public class InsurantDataAttributesSampleapp extends DSL {
 
     @FindBy(id = "country")
     protected WebElement comboCountry;

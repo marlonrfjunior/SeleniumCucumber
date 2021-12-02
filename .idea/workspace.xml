@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a7cee30f-94e4-4fd9-873b-845dd27ceeb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/DSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/0_Make_screenshot.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/10__screenshot.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/11_null_screenshot.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/12__screenshot.jpg" beforeDir="false" />
@@ -82,14 +103,22 @@
       <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/7_null_screenshot.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/8__screenshot.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/9_null_screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -115,122 +144,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="testeselenium" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-553">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7004">
-              <caret line="442" selection-start-line="442" selection-end-line="442" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/automationTest.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -296,12 +209,16 @@
       <select />
     </treeState>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="948" />
     <option name="y" value="-12" />
     <option name="width" value="984" />
     <option name="height" value="1044" />
   </component>
+  <component name="ProjectId" id="21iDvkHToNi404pTpbb5f7Rahf8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -398,9 +315,19 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -424,19 +351,7 @@
       <recent name="C:\Users\mferreij\Documents\Projetos\Personal\testes-selenium\src\test" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Cucumber java.Feature: automationTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: automationTest">
     <configuration name="InsurantDataPageSampleapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.marlonrfjunior.sampleApp.page.InsurantDataPageSampleapp" />
       <module name="testes-selenium" />
@@ -482,12 +397,13 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: automationTest" />
+        <item itemvalue="Cucumber Java.Feature: automationTest" />
         <item itemvalue="Application.VehicleDataPageSampleapp" />
         <item itemvalue="Application.InsurantDataPageSampleapp" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -498,6 +414,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621044855781</updated>
+      <workItem from="1638415248767" duration="2080000" />
     </task>
     <servers />
   </component>
@@ -615,27 +532,15 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -661,7 +566,6 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java</url>
           <line>27</line>
-          <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>

@@ -1,6 +1,10 @@
 package br.com.marlonrfjunior.sampleApp.utils;
 
 
+import io.cucumber.core.backend.TestCaseState;
+import io.cucumber.java.Scenario;
+import org.apache.commons.lang3.reflect.FieldUtils;
+import org.apache.commons.lang3.reflect.MethodUtils;
 import org.apache.poi.extractor.POITextExtractor;
 import org.apache.poi.ooxml.extractor.ExtractorFactory;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
@@ -10,6 +14,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import javax.net.ssl.*;
 import javax.security.cert.X509Certificate;
 import java.io.*;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
@@ -439,6 +445,20 @@ public class Utils {
     public static String substringRegexGroup1(String regex, String data) {
         return substringRegex(regex, data).group(1);
     }
-
+    public static Throwable logError(Scenario scenario) {
+        Field field = FieldUtils.getField(Scenario.class , "delegate" , true);
+        Method getError = null;
+        try {
+            final TestCaseState testCase = (TestCaseState) field.get(scenario);
+            if (getError == null) {
+                getError = MethodUtils.getMatchingMethod(testCase.getClass() , "getError");
+                getError.setAccessible(true);
+            }
+            return (Throwable) getError.invoke(testCase);
+        } catch (Exception e) {
+            System.err.println("error receiving exception" + e);
+        }
+        return null;
+    }
 
 }

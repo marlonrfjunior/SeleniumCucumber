@@ -1,29 +1,33 @@
 package br.com.marlonrfjunior.sampleApp.utils;
 
+import io.cucumber.core.backend.TestCaseState;
+import io.cucumber.java.Scenario;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.reflect.FieldUtils;
+import org.apache.commons.lang3.reflect.MethodUtils;
 import org.apache.log4j.Logger;
-import org.junit.Rule;
-import org.junit.rules.TestName;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
-public class BasePage {
+public class DSL {
 
 
-    private static WebDriver driver = Hooks.getDriver();
+    private static WebDriver driver = DriverManager.getDriver();
     private static int numArquivos = 0;
     private static Duration gap(int time) {
         return Duration.ofSeconds(time);
     }
-    private final Logger logger = Logger.getLogger(BasePage.class);
+    private final Logger logger = Logger.getLogger(DSL.class);
 
-    public BasePage() {
+    public DSL() {
     }
 
     /**
@@ -63,7 +67,7 @@ public class BasePage {
     }
 
     /**
-     * Clicar no WebElemnt com uma espera
+     * Clicar no WebElemnt com uma espera implicita
      *
      * @param webElement
      */
@@ -149,6 +153,7 @@ public class BasePage {
             driver.manage().timeouts().implicitlyWait(0 , TimeUnit.SECONDS);
         }
     }
+
 
 
     /** Retorna o atual browser incializado anteriormente
