@@ -1,21 +1,10 @@
 #language: pt
 #encoding: utf-8
-Funcionalidade: Preenchimento do Formulário Sample App
+Funcionalidade: Validar Perfil no linkedin
 
-
-	@fill_VeicleData
-	Esquema do Cenário: Preencher o formulário Enter Vehicle Data
-		Dado que acessei o Sample App no browser "<Browser>"
-		E preencho o formulario "Vehicle Data" com os dados do propreties e avanco para a proxima etapa
-		E preencho o formulario "Insurant Data" com os dados do propreties e avanco para a proxima etapa
-		E preencho o formulario "Product Data" com os dados do propreties e avanco para a proxima etapa
-		E preencho o formulario "Price Option" com os dados do propreties e avanco para a proxima etapa
-		Quando preencho o fomrulario Send Quote e envio a cotacao
-		Então valido que o email foi enviado
-
-		Exemplos:
-			|	Browser	 |
-			|	Chrome   |
-#			|	Firefox  |
-#			|	 Edge  	 |
-#			|	  IE   	 |
+	Cenário: Verificar Nome
+		Dado que acessei o linkedin no browser "Safari"
+		E me direciono a página de procurar pessoas conhecidas
+        Quando pesquiso o perfil da pessoa com nome "Marlon" e sobrenome "Junior"
+        E seleciono o com o titulo "Desenvolvedor de Testes Automatizados Pleno na Accenture" e nome "Marlon Junior"
+        Então verifico o curriculo

@@ -5,112 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7cee30f-94e4-4fd9-873b-845dd27ceeb6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/attributes/ResumeAttributesLinkedin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/attributes/SearchAttributesLinkedin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/page/HomePageLinkedin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/page/ResumePageLinkedin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/page/SearchPageLinkedin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/steps/ResumeStepsLinkedin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/steps/loadStepSystems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/DSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/0_Make_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/10__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/11_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/12__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/13_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/14__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/15_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/16_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/17__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/18_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/19__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/1_Model_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/20_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/21__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/22_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/23__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/24_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/25__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/26_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/27__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/28_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/29__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/2_Cylinder Capacity_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/30_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/31__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/32_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/33__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/34_Number of Seats_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/35_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/36_Number of Seats Motorcycle_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/37_Fuel Type_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/38_Payload_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/39_Total Weight_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/3_[kW]_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/40_List Price_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/41_License Plate Number_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/42_Annual Mileage_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/43_Next (Enter Insurant Data)_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/44_First Name_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/45_Last Name_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/46_Date of Birth_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/47_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/48_Street Address_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/49_Country_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/4_Open Date of Manufacture Calender_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/50_Zip Code_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/51_City_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/52_Occupation_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/53_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/54_Website_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/55_Next (Enter Product Data)_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/56_Open Start Date Calender_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/57_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/58_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/59__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/5_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/60_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/61__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/62_Insurance Sum_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/63_Merit Rating_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/64_Damage Insurance_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/65_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/66_Courtesy Car_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/67_Next (Select Price Option)_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/68_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/69_Next (Send Quote)_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/6__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/70_E-Mail_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/71_Phone_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/72_Username_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/73_Password_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/74_Confirm Password_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/75_Comments_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/76_Send E-Mail_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/77_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/7_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/8__screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/9_null_screenshot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/attributes/HomeAttributesLinkedin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/FillForStepsSampleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/steps/SearchStepsLinkedin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/steps/HomeStepsLinkedin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/DSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/DSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testsettings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testsettings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/HomeAttributesSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/InsurantDataAttributesSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/PriceOptionAttributesSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/ProductDataAttributesSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/SendQuoteAttributesSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/attributes/VehicleDataAttributesSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/HomePageSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/PriceOptionPageSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/ProductDataPageSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/SendQuotePageSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/page/VehicleDataPageSampleapp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/FillForStepsSampleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/HomeStepsSampleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/steps/loadStepsSampleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/DSL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/sampleApp/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/automationTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/automationTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testsettings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testsettings.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,16 +286,18 @@
       <recent name="C:\Users\mferreij\Documents\Projetos\Personal\testes-selenium\src\test\java\br\com\marlonrfjunior\sampleApp\attributes" />
       <recent name="C:\Users\mferreij\Documents\Projetos\Personal\testes-selenium\src\test\resources\features" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="br.com.marlonrfjunior.sampleApp.attributes" />
-      <recent name="br.com.marlonrfjunior.sampleApp.page" />
-      <recent name="br.com.marlonrfjunior.sampleApp.utils" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mferreij\Documents\Projetos\Personal\testes-selenium\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.marlonrfjunior.steps" />
+      <recent name="br.com.marlonrfjunior.page" />
+      <recent name="br.com.marlonrfjunior.attributes" />
+      <recent name="br.com.marlonrfjunior.sampleApp.attributes" />
+      <recent name="br.com.marlonrfjunior.sampleApp.page" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: automationTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: automationTest (1)">
     <configuration name="InsurantDataPageSampleapp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.marlonrfjunior.sampleApp.page.InsurantDataPageSampleapp" />
       <module name="testes-selenium" />
@@ -378,6 +324,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: automationTest (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" />
+      <option name="GLUE" value="br.com.marlonrfjunior.utils br.com.marlonrfjunior.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="SeleniumCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: automationTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: automationTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/automationTest.feature" />
@@ -397,6 +362,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: automationTest (1)" />
         <item itemvalue="Cucumber Java.Feature: automationTest" />
         <item itemvalue="Application.VehicleDataPageSampleapp" />
         <item itemvalue="Application.InsurantDataPageSampleapp" />
@@ -415,6 +381,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621044855781</updated>
       <workItem from="1638415248767" duration="2080000" />
+      <workItem from="1638490544826" duration="11364000" />
     </task>
     <servers />
   </component>
@@ -559,17 +526,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/sampleApp/page/InsurantDataPageSampleapp.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
