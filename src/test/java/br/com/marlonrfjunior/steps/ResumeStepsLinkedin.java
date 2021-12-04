@@ -10,7 +10,6 @@ public class ResumeStepsLinkedin {
 
     @Então("verifico o curriculo")
     public void resumeValidation() {
-
         new ResumePageLinkedin().verification();
     }
 }

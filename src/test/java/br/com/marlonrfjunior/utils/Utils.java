@@ -3,10 +3,10 @@ package br.com.marlonrfjunior.utils;
 
 import io.cucumber.core.backend.TestCaseState;
 import io.cucumber.java.Scenario;
-import org.apache.commons.lang3.reflect.FieldUtils;
-import org.apache.commons.lang3.reflect.MethodUtils;
+import org.apache.commons.lang.reflect.FieldUtils;
+import org.apache.commons.lang.reflect.MethodUtils;
+import org.apache.poi.extractor.ExtractorFactory;
 import org.apache.poi.extractor.POITextExtractor;
-import org.apache.poi.ooxml.extractor.ExtractorFactory;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.xssf.extractor.XSSFExcelExtractor;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -451,7 +451,7 @@ public class Utils {
         try {
             final TestCaseState testCase = (TestCaseState) field.get(scenario);
             if (getError == null) {
-                getError = MethodUtils.getMatchingMethod(testCase.getClass() , "getError");
+                getError = MethodUtils.getMatchingAccessibleMethod(testCase.getClass() , "getError", new Class[]{testCase.getClass()});
                 getError.setAccessible(true);
             }
             return (Throwable) getError.invoke(testCase);
