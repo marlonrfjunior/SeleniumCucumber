@@ -6,9 +6,35 @@
   <component name="ChangeListManager">
     <list default="true" id="a7cee30f-94e4-4fd9-873b-845dd27ceeb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/steps/ResumeStepsLinkedin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/steps/ResumeStepsLinkedin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/0__screenshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/Screenshoots/0__screenshot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/page/HomePageLinkedin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/page/HomePageLinkedin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report/Screenshoots/0__screenshot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/attributes/HomeAttributesLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/attributes/ResumeAttributesLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/attributes/SearchAttributesLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/page/HomePageLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/page/ResumePageLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/page/SearchPageLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/steps/HomeStepsLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/steps/ResumeStepsLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/steps/SearchStepsLinkedin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/steps/loadStepSystems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/DSL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/DriverManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Hooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/marlonrfjunior/utils/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/automationTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/select-environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testsettings.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +362,15 @@
       <updated>1621044855781</updated>
       <workItem from="1638415248767" duration="2080000" />
       <workItem from="1638490544826" duration="11804000" />
-      <workItem from="1638579518344" duration="3342000" />
+      <workItem from="1638579518344" duration="3975000" />
+      <workItem from="1638585503270" duration="4306000" />
+      <workItem from="1638653249049" duration="6000" />
+      <workItem from="1638670154269" duration="19000" />
+      <workItem from="1638670711676" duration="636000" />
+      <workItem from="1638671878617" duration="1322000" />
+      <workItem from="1638714326000" duration="597000" />
+      <workItem from="1638799598782" duration="987000" />
+      <workItem from="1638802950448" duration="2479000" />
     </task>
     <servers />
   </component>
@@ -481,6 +515,22 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/Hooks.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/marlonrfjunior/utils/Hooks.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">

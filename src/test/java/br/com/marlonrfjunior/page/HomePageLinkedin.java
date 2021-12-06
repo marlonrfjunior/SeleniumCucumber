@@ -14,5 +14,4 @@ public class HomePageLinkedin extends HomeAttributesLinkedin {
         click(btnSearchPeople);
     }
 
-
 }
